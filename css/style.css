@@ -8,7 +8,7 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --bg-color: #000b1f;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #be7efe;
@@ -44,6 +44,12 @@ header {
   box-shadow: var(--header-shadow);
 }
 
+h2 {
+  color:#be7efe;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
 header .container {
   flex-direction: row;
   justify-content: space-between;
@@ -98,6 +104,9 @@ section {
 }
 
 .countdown {
+  background-image: url(images/Rainbros_PlanetRGB.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
